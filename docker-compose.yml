@@ -1,0 +1,9 @@
+services:
+  twitch-bot:
+    container_name: twitch-webhook-bot
+    build: .
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - ./conf.json:/app/conf.json:ro  # Mount the config file

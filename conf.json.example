@@ -1,0 +1,7 @@
+{
+    "channel": "ch1nk0o",
+    "log_channel_chat": "123",
+    "log_channel_oth": "123",
+    "token": "discord bot token",
+    "webhook_url": "discord webhook url"
+}
